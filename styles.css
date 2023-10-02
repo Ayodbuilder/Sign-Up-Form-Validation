@@ -5,7 +5,7 @@
 
   body {
     padding: 20px;
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(./bg-intro-desktop.png);
     background-position: center;
     background-size: cover;
     background-color: hsl(0, 100%, 74%);
