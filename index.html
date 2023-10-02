@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+      
+    <div class="entire-webpage">
+        <div class="left-items">
+          <h1 class="offer-text">Learn to code by watching others</h1>
+          <p class="left-text">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think is
+            invaluable.
+          </p>
+        </div>
+
+        <div class="right-items">
+          <div class="right">
+            <p class="right-text">
+              <span class="upgrade-ad">Try it free 7 days </span>then $20/month
+              thereafter
+            </p>
+          </div>
+
+          <div class="right-column">
+            <form id="form">
+              <div class="field">
+                <label for="">First Name</label>
+                <input type="text" id="name1" placeholder="e.g John" />
+                <span class="error" id="errorMessage1"
+                  >Please enter your first name</span>
+                  <!-- <div class="error-icon"> -->
+                    <img src="./images/icon-error.svg" alt="error-icon" class="error-img">
+                  <!-- </div> -->
+              </div>
+  
+              <div class="field">
+                <label for="">Last Name</label>
+                <input type="text" id="name2" placeholder="e.g Constatine" />
+                <span class="error" id="errorMessage2"
+                  >Please enter your last name</span>
+                  <!-- <div class="error-icon"> -->
+                    <img src="./images/icon-error.svg" alt="error-icon" class="error-img">
+                  <!-- </div> -->
+              </div>
+  
+              
+              <div class="field">
+                <label for="">Email</label>
+                <input type="email" id="email1" placeholder="e.g eric@gmail.com" />
+                <span class="error" id="errorMessage3"
+                  >Please enter your email address</span>
+                  <!-- <div class="error-icon"> -->
+                    <img src="./images/icon-error.svg" alt="error-icon" class="error-img">
+                  <!-- </div> -->
+              </div>
+  
+              <div class="field">
+                <label for="">Password</label>
+                <input type="password" id="password1" placeholder="e.g 123" />
+                <span class="error" id="errorMessage4"
+                  >Please enter your password</span>
+                  <!-- <div class="error-icon"> -->
+                    <img src ="./images/icon-error.svg" alt="error-icon" class="error-img" id="erroricon">
+                  <!-- </div> -->
+              </div>
+  
+              <button type="button" onclick="validateForm()" class="button">
+                Claim your free Trial
+              </button>
+              <p class="terms">
+                By clicking the button, you are agreeing to our<span
+                  class="terms-2"
+                >
+                  Terms and Services</span
+                >
+              </p>
+              <footer class="attribution">
+                <p class="attribution">
+                  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                  Coded by <a href="https://github.com/Ayodbuilder" target="_blank">Victor Ayobami Kehinde</a>.
+                </p>
+              </footer>
+            </form>
+  
+            <div class="thank-you" id="thanks">
+              <h2>Yayyy! You have successfully signed up <br> Check your Mail box to validate your account</h2>
+            </div>
+          </div>
+        </div>
+    </div>
+  <script src="./scripts.js"></script>  
+</body>
+</html>
